@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#F1B641;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background:rgb(255, 244, 227);
+    width:90%;
+    max-width:800px;
+    margin:0 auto;
+    border-radius: 20px;
+    padding:3.5px;
+    margin-top:1.2rem;
+}
+.menuHamburguer{
+    width:25px;
+}
+.bag{
+    width:25px;
+    height:25px;
+}
+.mainContainer{
+    padding:0 20px;
+}
+.cardImg{
+    display:flex;
+    justify-content: center;
+}
+.label{
+    font-size:2.5rem;
+    font-weight:900;
+    font-family: 'Roboto';
+}
+.price{
+    font-size: 2.5rem;
+    font-family: 'Roboto';
+}
+.productPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:25px;
+    max-width:800px;
+    margin:0 auto;
+}
+.description{
+    margin:0 auto;
+    /* width:80%; */
+    max-width:800px;
+}
+.amountOption{
+    display:flex;
+    width:80%;
+    max-width:500px;
+    justify-content: space-between;
+    border:1px solid black;
+    border-radius: 25px;
+    align-items: center;
+    font-family: 'Roboto';
+    margin:0 auto;
+    padding:5px 5px;
+}
+.amountOption button{
+    width:35px;
+    height:35px;
+    background:none;
+    border:none;
+    cursor:pointer;
+    border-radius: 30px;
+    transition:0.1s;
+    
+}
+.amountOption button:active{
+    background:#be9033;
+}
+.description h2,.description p{
+    margin-bottom:5px;
+}
+.options{
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding:15px;
+    gap:10px;
+}
+.addButton{
+    width:280px;
+    border:none;
+    background:black;
+    color:white;
+    border-radius: 20px;
+    padding:12px;
+    font-weight:100;
+    cursor:pointer
+}
+.divBtn{
+    display:flex;
+    justify-content: center;
+    padding:15px;
+}
